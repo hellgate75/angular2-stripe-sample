@@ -1,0 +1,83 @@
+.container {
+	width: 256px;
+	margin-left: calc(50% - 128px);
+	border: 1px solid #FEFEFE;
+	padding-top: 5px;
+    padding-bottom: 10px;
+    border: 0.05em solid #000000;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    border-style: outset;
+    border-right-width: 3px;
+    border-bottom-width: 4px;
+}
+
+.container * {
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.container div {
+	width: 100%;
+}
+.container input {
+	font-size: 13px;
+	border: 0px;
+    box-sizing: content-box;
+    border-bottom: 0.08em solid #a5a59b;
+}
+
+.expmon {
+	width: 26px;
+    display: inline-flex;
+    float: left;
+}
+
+.cvc {
+	width: 30px;
+}
+
+.expyear {
+	width: 40px;
+    display: inline-flex;
+    float: left;
+    margin-left: 20px;
+}
+
+.container label {
+	width: 100%;
+	display: inline-block;
+    padding-top: 10px;
+	text-transform: uppercase;
+	font-weight:  bold;
+	font-stretch: ultra-expanded;
+	text-align:  left;
+}
+
+.container button {
+	border: 1px solid red;
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 63px;
+    color: red;
+    font-weight: bold;
+}
+
+.panel-title {
+	width: 100%;
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 20px !important;
+}
+
+.container input:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
